@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h1 {
+        @apply text-3xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold font-spartan
+    }
+    .logo{
+        @apply h-10 sm:h-12 lg:h-12 2xl:h-14		
+    }
+    .header-link{
+        @apply text-lg xl:text-xl 2xl:text-2xl font-semibold capitalize px-2 font-spartan
+    }
+    .darkmode-toggler{
+        @apply text-xl lg:text-xl 2xl:text-2xl rounded-full	border-2 p-2
+    } 
+    .social-media-wrapper{
+        @apply fixed sm:relative w-full sm:w-auto py-3 pb-5 sm:p-0 bottom-0 inset-x-0 bg-[#F8F7F2] sm:bg-transparent flex justify-evenly sm:justify-normal gap-6 xl:gap-8 mt-4 
+    }
+    .cta-btn {
+        @apply flex items-center justify-evenly border border-black w-52 h-12 rounded	
+    }
+}
+
