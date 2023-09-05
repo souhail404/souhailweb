@@ -2,7 +2,7 @@ import Link from "next/link"
 import {MdOutlineDarkMode, MdOutlineMenu} from 'react-icons/md'
 const AppHeader = () => {
   return (
-    <header className="flex items-center justify-between pt-6 sm:pt-12">
+    <header className="flex items-center justify-between pt-8 sm:pt-12 tall:pt-12">
         <Link className="logo" href={`/`} >
             <img src="/icon-black.svg" alt="logo" className="w-full h-full object-contain" />
         </Link>

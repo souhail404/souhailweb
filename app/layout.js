@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <AppHeader />
-        <main className='flex flex-col w-full sm:px-6 gap-6 pt-[8vh] pb-20 xl:py-20'>
+        <main className='flex flex-col w-full sm:px-6 md:px-12 gap-6 pt-[8vh] pb-20 xl:py-20'>
           {children}
         </main>
       </body>

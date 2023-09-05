@@ -3,7 +3,7 @@ import {AiFillLinkedin, AiOutlineArrowRight, AiOutlineEllipsis, AiOutlineGithub,
 import { MdOutlinePersonOutline } from "react-icons/md";
 export default function Home() {
   return (
-    <section className="flex flex-col  midtall:gap-3 tall:gap-[4vh]">
+    <section className="flex flex-col  midtall:gap-3 tall:gap-[4vh] my-auto">
       <div className="flex flex-col sm:gap-4">
         <h1>Hi, I'm Souhail.</h1>
         <h1>I Build  Virtual Adventures.</h1>
