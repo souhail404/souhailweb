@@ -6,31 +6,30 @@ import Link from "next/link";
 
 const Logo = ()=>{
     const {theme, setTheme} = useTheme();
-    const [mounted , setMounted]= useState(false);
+    const [isDark , setIsDark]= useState();
+
 
     useEffect(()=>{
-        setMounted(true)
-    },[])
-
-    if (!mounted) {
-        return null
-    }
+        if(theme==='light'){
+            setIsDark(false)
+        }
+        else if (theme==='dark'){
+            setIsDark(true)
+        }
+    },[theme])
 
     return(
         <>
             {
-                theme==="light" ?
-                    <Link className="logo" href={`/`} >
-                        <img src="/icon-black.svg" alt="logo" className="w-full h-full object-contain" />
-                    </Link>
-                : null
-                }
-                {
-                theme==="dark" ?
+                isDark ?
                     <Link className="logo" href={`/`} >
                         <img src="/icon-gray.png" alt="logo" className="w-full h-full object-contain" />
                     </Link>
-                : null
+                : 
+                    <Link className="logo" href={`/`} >
+                            <img src="/icon-black.svg" alt="logo" className="w-full h-full object-contain" />
+                    </Link>
+                
             }
         </> 
     )
