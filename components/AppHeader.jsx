@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { CiMenuBurger} from 'react-icons/ci'
 import ThemeToggler from "./ThemeToggler"
-import Logo from "./Logo"
+import Logo from "./Logo" 
 const AppHeader = () => {
   return (
     <header className="flex items-center justify-between pt-8 sm:pt-12 tall:pt-12">
