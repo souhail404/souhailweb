@@ -12,8 +12,14 @@
     h1 {
         @apply text-2xl xs:text-3xl sm:text-4.5xl md:text-5xl lg:text-5xl xl:text-6xl font-bold font-spartan
     }
+    h2 {
+        @apply text-3xl xs:text-4xl lg:text-5xl font-bold font-spartan
+    }
+    h3 {
+        @apply text-2.5xl xs:text-2.5xl lg:text-3xl font-semibold font-spartan
+    }
     p{
-        @apply text-lg
+        @apply text-lg lg:text-xl
     }
     .logo{
         @apply h-10 lg:h-11 2xl:h-12		
@@ -35,6 +41,12 @@
     }
     .cta-btn.secondary {
         @apply text-blue-600 dark:text-slate-300 sm:w-44
+    }
+    .important-word{
+        @apply font-semibold underline underline-offset-2 decoration-blue-600 dark:decoration-blue-800
+    }
+    .nav-icon{
+        @apply animate-bounceVer
     }
 }
 

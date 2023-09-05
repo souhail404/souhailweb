@@ -32,6 +32,23 @@ module.exports = {
           lineHeight: '1',
         }],
       },
+      keyframes: {
+        bounceVer: {
+          '0% ':{
+            transform: 'translateX(0px)'
+          },
+         '70%' :{
+            transform: 'translateX(8px)'
+          },
+         
+         '100%' :{
+            transform: 'translateX(0)'
+          },
+        },
+      },
+      animation:{
+        bounceVer: 'bounceVer 1s ease infinite',
+      },
     }
   },
   plugins: [],
