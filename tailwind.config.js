@@ -6,16 +6,33 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens:{
+      'xs':'390px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+      'midtall':{ 'raw': '(min-height: 600px)' },
+      'tall': { 'raw': '(min-height: 800px)' },
+      'xtall': { 'raw': '(min-height: 1000px)' },
+    },
     extend: {
       fontFamily:{
         "spartan": ['League Spartan', 'sans-serif']
-      }
-      // colors:{
-      //   light:{
-      //     100:'#F8F7F2',
-      //   } 
-      // }
-    },
+      },
+      fontSize: {
+        '2.5xl': ['1.65rem', {
+          lineHeight: '2.1rem',
+        }],
+        '3.5xl': ['2rem', {
+          lineHeight: '2.35rem',
+        }],
+        '4.5xl': ['2.8rem', {
+          lineHeight: '1',
+        }],
+      },
+    }
   },
   plugins: [],
 }
