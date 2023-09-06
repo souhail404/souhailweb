@@ -20,17 +20,12 @@ const Logo = ()=>{
 
     return(
         <>
-            {
-                isDark ?
-                    <Link className="logo" href={`/`} >
-                        <img src="/icon-gray.png" alt="logo" className="w-full h-full object-contain" />
-                    </Link>
-                : 
-                    <Link className="logo" href={`/`} >
-                            <img src="/icon-black.svg" alt="logo" className="w-full h-full object-contain" />
-                    </Link>
-                
-            }
+            <Link className={`logo ${!isDark ? 'hidden': ''}`} href={`/`} >
+                <img src="/icon-gray.png" alt="logo" className="w-full h-full object-contain" />
+            </Link>
+            <Link className={`logo ${isDark ? 'hidden': ''}`} href={`/`} >
+                    <img src="/icon-black.svg" alt="logo" className="w-full h-full object-contain" />
+            </Link>
         </> 
     )
 }
