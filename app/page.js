@@ -16,10 +16,10 @@ export default function Home() {
         <Link className="cta-btn primary"  href={`/contact`}>Let's Talk  </Link>
       </div>
       <div className="social-media-wrapper">
-        <Link href={``} className="text-2xl sm:text-3xl"><AiOutlineGithub /></Link>
-        <Link href={``} className="text-2xl sm:text-3xl"><AiFillLinkedin /></Link>
-        <Link href={``} className="text-2xl sm:text-3xl"><AiOutlineInstagram /></Link>
-        <Link href={``} className="text-2xl sm:text-3xl"><AiOutlineTwitter /></Link>
+        <Link href={`https://github.com/souhail404`} className="text-2xl sm:text-3xl"><AiOutlineGithub /></Link>
+        <Link href={`https://www.linkedin.com/in/souhail-el-abbouyi-075169217/`} className="text-2xl sm:text-3xl"><AiFillLinkedin /></Link>
+        <Link href={`https://www.instagram.com/souhailweb/`} className="text-2xl sm:text-3xl"><AiOutlineInstagram /></Link>
+        <Link href={`https://twitter.com/SouhailDev`} className="text-2xl sm:text-3xl"><AiOutlineTwitter /></Link>
       </div>
     </section>
   )
