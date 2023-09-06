@@ -22,7 +22,7 @@
         @apply text-lg lg:text-xl
     }
     .logo{
-        @apply h-10 lg:h-11 2xl:h-12		
+        @apply h-10 lg:h-11 2xl:h-12 aspect-square
     }
     .header-link{
         @apply text-lg xl:text-xl leading-5 flex items-center font-medium capitalize font-spartan border-b-2 border-transparent hover:border-blue-600 transition duration-150 ease-linear

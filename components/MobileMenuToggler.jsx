@@ -5,7 +5,7 @@ import { CiMenuBurger } from 'react-icons/ci'
 
 const MobileMenuToggler = ({isMenuOpen , setIsMenuOpen}) => {
   return (
-    <button type="button" className={`block sm:hidden header-icon z-20 ${isMenuOpen ? 'fixed' :''}`} onClick={()=>setIsMenuOpen(!isMenuOpen)}>
+    <button type="button" className={`block sm:hidden header-icon z-20 aspect-square`} onClick={()=>setIsMenuOpen(!isMenuOpen)}>
         {
             isMenuOpen ?
             <AiOutlineClose />
