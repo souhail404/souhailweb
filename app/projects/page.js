@@ -1,3 +1,5 @@
+import ProjectCard from "@/components/ProjectCard";
+import Link from "next/link";
 
 export default function Projects(){
     return(
@@ -5,9 +7,12 @@ export default function Projects(){
             <div className="mb-6">
                 <h2>Projects.</h2>    
             </div>
-            <div className="flex flex-col gap-12 relative p-4">
-                <span className="w-px h-full absolute bg-slate-900 dark:bg-slate-300 top-0 left-0 opacity-25"></span>
-                
+            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+                <ProjectCard image={'media/project1.png'} />
+                <ProjectCard image={'media/project2.png'} />
+                <ProjectCard image={'media/project3.png'} />
+                <ProjectCard image={'media/project4.png'} />
+                <ProjectCard image={'media/project5.png'} />
             </div>
         </section>
     )
