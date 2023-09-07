@@ -1,9 +1,14 @@
 "use client";
 import { useTheme } from "next-themes";
+import { useEffect } from "react";
 import { BsCircleHalf } from "react-icons/bs"
 
 const ThemeToggler = ()=>{
-    const {theme, setTheme} = useTheme(localStorage.getItem('theme') || 'light');
+    const {theme, setTheme} = useTheme();
+    
+    useEffect(()=>{
+        setTheme(localStorage.getItem('theme') || 'light')
+    })
 
     const changeTheme = ()=>{
         if(theme==='light'){
