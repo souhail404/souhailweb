@@ -6,7 +6,7 @@ import { AiFillLinkedin, AiOutlineGithub, AiOutlineInstagram, AiOutlineTwitter }
 
 const MobileMenu = ({isMenuOpen , setIsMenuOpen}) => {
   return (
-    <div className={`fixed inset-0 w-full max-w-full h-screen bg-blue-50 dark:bg-gray-950 z-10 ${isMenuOpen ? 'flex flex-col' : 'hidden'} items-center justify-evenly`}>
+    <div className={`fixed inset-0 w-full max-w-full h-screen bg-blue-50 dark:bg-gray-950 z-20 ${isMenuOpen ? 'flex flex-col' : 'hidden'} items-center justify-evenly`}>
       <div className='flex flex-col items-center gap-6'>
         <Link className="" href={`/`} onClick={()=>setIsMenuOpen(false)}><h2>home.</h2></Link>
         <Link className="" href={`/about`} onClick={()=>setIsMenuOpen(false)}><h2>about.</h2></Link>

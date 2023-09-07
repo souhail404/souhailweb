@@ -1,19 +1,19 @@
+"use client";
 import Link from 'next/link'
-import React from 'react'
 
-const ProjectCard = ({image}) => {
+const ProjectCard = ({image, title, description, projectLink, aboutProject}) => {
   return (
-    <Link href={``} className='group relative w-full aspect-square rounded border border-black overflow-hidden flex flex-col'>
+    <div className='group relative w-full aspect-square rounded border border-slate-300 overflow-hidden flex flex-col'>
         <img src={`${image}`} alt="" className='absolute h-full w-full group-hover:scale-105 max-w-full object-cover transition delay-150'/>
-        <div className='flex flex-col justify-end h-full bg-gradient-to-t from-30% from-slate-950/90 to-slate-950/0 z-10 text-slate-300 px-2 py-4 translate-y-full group-hover:translate-y-0 transition delay-150'>
-            <h4>E-univers Dashboard</h4>
-            <p className='text-base mb-2'>Lorem ipsum dolor sit amet consectetur elit.</p>
+        <div className='flex flex-col justify-end h-full bg-gradient-to-t from-20% from-slate-950/70 to-slate-950/0  z-10 text-slate-300 px-2 py-4 md:translate-y-full group-hover:translate-y-0 transition delay-150'>
+            <h4>{title}</h4>
+            <p className='text-base mb-2'>{description}</p>
             <div className='grid grid-cols-2 gap-2'>
-                <Link href={``} className='cta-btn text-base h-9 text-blue-600 dark:text-slate-300 w-full'>Visit Project</Link>
-                <Link href={``} className='cta-btn text-base h-9 bg-blue-600 border-blue-600 text-blue-50 w-full'>More Details</Link>
+                <Link href={`${projectLink}`} className='cta-btn text-base h-8 text-slate-300 border-slate-300 w-full'>Visit Project</Link>
+                <Link href={`${aboutProject}`} className='cta-btn text-base h-8 bg-blue-600 border-blue-600 text-blue-50 w-full'>More Details</Link>
             </div>
         </div>
-    </Link>
+    </div>
   )
 }
 

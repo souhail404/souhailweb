@@ -21,7 +21,7 @@
     h4 {
         @apply text-2xl font-semibold font-spartan
     }
-    p{
+    p,label{
         @apply text-lg lg:text-xl
     }
     .logo{

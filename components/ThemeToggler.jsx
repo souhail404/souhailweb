@@ -1,18 +1,24 @@
 "use client";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { BsCircleHalf } from "react-icons/bs"
 
 const ThemeToggler = ()=>{
-    const {theme, setTheme} = useTheme();
-    const [isDark, setIsDark] = useState(false);
+    const {theme, setTheme} = useTheme(localStorage.getItem('theme') || 'light');
 
-    useEffect(()=>{
-        isDark ? setTheme('dark'): setTheme('light')
-    },[isDark])
+    const changeTheme = ()=>{
+        if(theme==='light'){
+            setTheme('dark')
+            localStorage.setItem('theme', `dark`);
+        }
+        else{
+            setTheme('light')
+            localStorage.setItem('theme', `light`);
+        }
+        
+    }
     
     return(
-        <button type="button" className="header-icon" onClick={()=>setIsDark(!isDark)}>
+        <button type="button" className="header-icon" onClick={()=>changeTheme()}>
             <BsCircleHalf />
         </button>
     )

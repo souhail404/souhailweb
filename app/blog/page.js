@@ -2,8 +2,9 @@
 export default function Blog(){
     return(
         <section>
-            This Page is on the building process... <br />
-            Please check it later
+            <p>This Page is on the building process...</p>
+            <br />
+            <p>Please check it later</p>
         </section>
     )
 }
