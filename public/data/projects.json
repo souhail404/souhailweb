@@ -1,0 +1,108 @@
+[
+    {
+        "id":0,
+        "active":true,
+        "slug":"e-univers-dashborad",
+        "name":"E-commerce Dashborad",
+        "image":"/media/project1.png",
+        "heroImage":"/media/hero1.png",
+        "technologies":"React.js, Node.js, Express.js, MongoDB",
+        "description":"E-Universe Dashboard is a powerful e-commerce management tool that provides real-time insights into your online store's performance. With user-friendly features, it allows you to effortlessly monitor sales, track orders, and analyze customer data. Customizable and data-driven, E-Universe Dashboard empowers you to make informed decisions to grow your e-commerce business.",
+        "projectLink":"",
+        "links":[
+            {
+                "label":"Github",
+                "url":"https://github.com/souhail404/e-univers-dashboard"
+            }
+        ],
+        "demoImg":"/media/project1-demo.png"
+    },
+    {
+        "id":1,
+        "active":true,
+        "slug":"e-univers-store",
+        "name":"E-commerce Store",
+        "image":"/media/project2.png",
+        "heroImage":"/media/hero2.png",
+        "technologies":"React.js, Node.js, Express.js, MongoDB",
+        "description":"This app is an advanced e-commerce platform that allows users to browse, select, and purchase a wide range of products. It features a user-friendly client app built with React for smooth shopping experiences. A dashboard, also developed with React, provides a powerful tool for managing the online store. The server is powered by Node.js, and data is stored in a MongoDB database.",
+        "projectLink":"",
+        "links":[
+            {
+                "label":"Github",
+                "url":"#"
+            }
+        ],
+        "demoImg":"/media/project2-demo.png"
+    },
+    {
+        "id":2,
+        "active":true,
+        "slug":"rest-api-server",
+        "name":"REST API Server",
+        "image":"/media/project3.png",
+        "heroImage":"/media/hero3.png",
+        "technologies":"Node.js, Express.js",
+        "description":"This is the backend server for the e-univers website, which is an E-commerce platform that allows users to browse and purchase various products online. The server provides a robust API for managing products, categories, orders, and user data.",
+        "projectLink":"",
+        "links":[
+            {
+                "label":"Github",
+                "url":"https://github.com/souhail404/e-univers-server"
+            }
+        ],
+        "demoImg":"/media/project3-demo.png"
+    },
+    {
+        "id":3,
+        "active":true,
+        "slug":"demotv-store",
+        "name":"DemoTv Store",
+        "image":"/media/project6.png",
+        "hero41":"/media/p6-hero41.png",
+        "technologies":"Wordpress, Elementor",
+        "description":"DemoTV is an IPTV subscription store meticulously crafted using WordPress and Elementor. This dynamic combination allows us to offer an intuitive and visually stunning platform that simplifies your access to a vast array of TV channels and on-demand content. With WordPress and Elementor, DemoTV delivers a seamless, responsive, and feature-rich user experience.",
+        "projectLink":"https://demotv1.us.to/",
+        "links":[
+    
+        ],
+        "demoImg":"/media/project6-demo.png"
+    },
+    {
+        "id":4,
+        "active":true,
+        "slug":"wiper",
+        "name":"Wiper",
+        "image":"/media/project4.png",
+        "heroImage":"/media/hero4.png",
+        "technologies":"Javascript, HTML, CSS",
+        "description":"a visually appealing and responsive single product e-commerce landing page using HTML, CSS, and JavaScript. This project showcases a product with high-quality images, clear pricing, and an easy-to-use interface. It's designed to drive conversions and provide a seamless shopping experience.",
+        "projectLink":"http://souhailelabbouyi.me/saad/",
+        "links":[
+            {
+                "label":"Github",
+                "url":"https://github.com/souhail404/saad"
+            }
+        ],
+        "demoImg":"/media/project4-demo.png"
+    },
+    {
+        "id":5,
+        "active":true,
+        "slug":"backpack",
+        "name":"backpack",
+        "image":"/media/project5.png",
+        "heroImage":"/media/hero5.png",
+        "technologies":"Javascript, HTML, CSS",
+        "description":"a visually appealing and responsive single product e-commerce landing page using HTML, CSS, and JavaScript. This project showcases a product with high-quality images, clear pricing, and an easy-to-use interface. It's designed to drive conversions and provide a seamless shopping experience.",
+        "projectLink":"http://souhailelabbouyi.me/store1/",
+        "links":[
+            {
+                "label":"Github",
+                "url":"https://github.com/souhail404/store1"
+            }
+        ],
+        "demoImg":"/media/project5-demo.png"
+    }
+
+]

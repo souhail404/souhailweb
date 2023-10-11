@@ -42,19 +42,19 @@ export default function Projects(){
                                 <BiLogoGmail className="group-hover:text-blue-600" />
                                 <p>elabbouyisouhail@gmail.com</p>
                             </div>
-                            <Link href={`https://github.com/souhail404`} className="group flex text-2xl gap-4">
+                            <Link href={`https://github.com/souhail404`} target="_blank" className="group flex text-2xl gap-4">
                                 <AiOutlineGithub className="group-hover:text-blue-600" />
                                 <p>souhail 404</p>
                             </Link>
-                            <Link href={`https://www.linkedin.com/in/souhail-el-abbouyi-075169217/`} className="group flex text-2xl gap-4">
+                            <Link href={`https://www.linkedin.com/in/souhail-el-abbouyi-075169217/`} target="_blank" className="group flex text-2xl gap-4">
                                 <AiFillLinkedin className="group-hover:text-blue-600" />
                                 <p>souhail el abbouyi</p>
                             </Link>
-                            <Link href={`https://www.instagram.com/souhailweb/`} className="group flex text-2xl gap-4">
+                            <Link href={`https://www.instagram.com/souhailweb/`} target="_blank" className="group flex text-2xl gap-4">
                                 <AiOutlineInstagram className="group-hover:text-blue-600" />
                                 <p>souhailweb</p>
                             </Link>
-                            <Link href={`https://twitter.com/SouhailDev`} className="group flex text-2xl gap-4">
+                            <Link href={`https://twitter.com/SouhailDev`} target="_blank" className="group flex text-2xl gap-4">
                                 <AiOutlineTwitter className="group-hover:text-blue-600" />
                                 <p>souhailDev</p>
                             </Link>
