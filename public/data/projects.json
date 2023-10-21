@@ -8,7 +8,7 @@
         "heroImage":"/media/hero1.png",
         "technologies":"React.js, Node.js, Express.js, MongoDB",
         "description":"E-Universe Dashboard is a powerful e-commerce management tool that provides real-time insights into your online store's performance. With user-friendly features, it allows you to effortlessly monitor sales, track orders, and analyze customer data. Customizable and data-driven, E-Universe Dashboard empowers you to make informed decisions to grow your e-commerce business.",
-        "projectLink":"",
+        "projectLink":"https://e-dashboard-mu.vercel.app/",
         "links":[
             {
                 "label":"Github",
